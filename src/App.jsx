@@ -7,10 +7,10 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div style={{maxWidth: '1400px'}} className=" mx-auto">
+      <div className="bg-sky-50 ">
         <Header></Header>
       </div>
-      <div className="h-[calc(100vh-70px)]">
+      <div className="min-h-[calc(100vh-100px)] mx-auto">
         <Outlet></Outlet>
       </div>
       <div className="bg-black">

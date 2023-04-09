@@ -6,14 +6,14 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   const links = [
-    { ref: "/", name: "Home" },
-    { ref: "/statistics", name: "Statistics" },
-    { ref: "/appliedjobs", name: "Applied Jobs" },
-    { ref: "/blog", name: "Blog" },
+    { id:1, ref: "/", name: "Home" },
+    { id:2, ref: "/statistics", name: "Statistics" },
+    { id:3, ref: "/appliedjobs", name: "Applied Jobs" },
+    { id:4, ref: "/blog", name: "Blog" },
   ];
 
   return (
-    <nav className="navbar bg-sky-50 px-4">
+    <nav style={{maxWidth: '1400px'}} className="navbar px-4 mx-auto">
       <div className="navbar-start">
         <a className="text-2xl font-bold">glassdoor</a>
       </div>
@@ -37,7 +37,7 @@ const Header = () => {
           } `}
         >
           {links.map((link) => (
-            <li className="">
+            <li className="" key={link.id}>
               <NavLink
                 to={link.ref}
                 className={({ isActive }) =>
