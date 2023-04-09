@@ -33,7 +33,7 @@ const Header = () => {
         </div>
         <ul
           className={`md:flex md:static gap-8 ${
-            open ? "absolute top-12" : "absolute -top-32"
+            open ? "absolute top-12 z-10" : "absolute -top-32"
           } `}
         >
           {links.map((link) => (
