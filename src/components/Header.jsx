@@ -13,7 +13,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="navbar bg-sky-50">
+    <nav className="navbar bg-sky-50 px-4">
       <div className="navbar-start">
         <a className="text-2xl font-bold">glassdoor</a>
       </div>
@@ -53,7 +53,7 @@ const Header = () => {
       <div className="navbar-end">
         <button className="btn">Start Applying</button>
       </div>
-    </div>
+    </nav>
   );
 };
 
