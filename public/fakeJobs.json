@@ -7,7 +7,7 @@
         "jobType": "Remote",
         "location": "Chittagong, Bangladesh",
         "salary": "45k-52k",
-        "duration": "Full-time",
+        "duration": "Part-time",
         "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": "Bachelor degree to complete any reputational university.",
@@ -37,6 +37,24 @@
     },
     {
         "id": 3,
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVMgQnWnU3HXntdAGPvbLa9J5ahWH-6-bmRM3phxVmZw&s",
+        "jobTitle": "Senior Product Designer",
+        "companyName": "Netflix",
+        "jobType": "Remote",
+        "location": "Rajshahi, Bangladesh",
+        "salary": "35k-45k",
+        "duration": "Part-time",
+        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education": "Bachelor degree to complete any reputational university.",
+        "experiences": "2-3 Years in this field.",
+        "contact": [
+            {"phone": "+880557423"},
+            {"email": "netflix@gmail.com"}
+        ]
+    },
+    {
+        "id": 4,
         "logo": "https://cdn.sanity.io/images/92ui5egz/production/ba0e8bde098aa99fc24c647fe3cb85affb7243bd-1920x1080.jpg?rect=0,36,1920,1008&w=1200&h=630&fm=jpg",
         "jobTitle": "Senior Product Manager",
         "companyName": "Unilever LTD.",
@@ -54,24 +72,6 @@
         ]
     },
     {
-        "id": 4,
-        "logo": "https://thumbs.dreamstime.com/b/tesla-logo-editorial-illustrative-white-background-eps-download-vector-jpeg-tesla-logo-239841778.jpg",
-        "jobTitle": "Senior Engineer",
-        "companyName": "Tesla",
-        "jobType": "Remote",
-        "location": "Chittagong, Bangladesh",
-        "salary": "55k-62k",
-        "duration": "Full-time",
-        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "education": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field.",
-        "contact": [
-            {"phone": "+88346768433"},
-            {"email": "tesla@gmail.com"}
-        ]
-    },
-    {
         "id": 5,
         "logo": "https://www.shutterstock.com/image-photo/kiev-ukraine-march-08-2015-260nw-260747111.jpg",
         "jobTitle": "Senior Software Engineer",
@@ -79,7 +79,7 @@
         "jobType": "Remote",
         "location": "Noakhali, Bangladesh",
         "salary": "58k-65k",
-        "duration": "part-time",
+        "duration": "Full-time",
         "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": "Bachelor degree to complete any reputational university.",
@@ -91,20 +91,20 @@
     },
     {
         "id": 6,
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVMgQnWnU3HXntdAGPvbLa9J5ahWH-6-bmRM3phxVmZw&s",
-        "jobTitle": "Senior Product Designer",
-        "companyName": "Netflix",
+        "logo": "https://thumbs.dreamstime.com/b/tesla-logo-editorial-illustrative-white-background-eps-download-vector-jpeg-tesla-logo-239841778.jpg",
+        "jobTitle": "Senior Engineer",
+        "companyName": "Tesla",
         "jobType": "Remote",
-        "location": "Rajshahi, Bangladesh",
-        "salary": "35k-45k",
-        "duration": "part-time",
+        "location": "Chittagong, Bangladesh",
+        "salary": "50k-60k",
+        "duration": "Part-time",
         "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "contact": [
-            {"phone": "+880557423"},
-            {"email": "netflix@gmail.com"}
+            {"phone": "+88346768433"},
+            {"email": "tesla@gmail.com"}
         ]
     }
 ]

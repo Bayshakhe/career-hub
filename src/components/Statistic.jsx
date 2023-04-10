@@ -12,7 +12,7 @@ const Statistic = () => {
         { name: 'Assignment-7', mark: 60, outof: 60 }
       ];
     return (
-        <div className='py-10 md:px-32 w-full h-[400px]' >
+        <div className='py-10 px-8 md:px-32 w-full h-[400px]' >
         <ResponsiveContainer>
           <ComposedChart width={500} height={500} data={assignmentsMark}
           >

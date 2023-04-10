@@ -1,8 +1,10 @@
 import React from 'react';
 import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/outline'
+import { Link, useParams } from 'react-router-dom';
 
 const Job = (props) => {
-    const {id,jobTitle, logo, salary, location, jobType, duration, companyName} = props.job;
+    const {id ,jobTitle, logo, salary, location, jobType, duration, companyName} = props.job;
+    // const params = useParams()
     // console.log(jobTitle)
     return (
         <div className='border rounded-md px-5 pb-5'>
@@ -15,7 +17,7 @@ const Job = (props) => {
                 <p className='flex gap-1'><MapPinIcon className="h-6 w-6 " />{location}</p>  
                 <p className='flex gap-1'><CurrencyDollarIcon className="h-6 w-6 " /> {salary}</p>
             </div>
-            <button className='btn'>View Details</button>
+            <Link to={`/job/${id}`} className='btn'>View Details</Link>
         </div>
     );
 };

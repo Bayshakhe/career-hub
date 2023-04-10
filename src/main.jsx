@@ -8,6 +8,7 @@ import Statistic from './components/Statistic';
 import Blog from './components/Blog';
 import ErrorPage from './components/ErrorPage';
 import { getJobsAndAppliedData } from './loaders/getJobs&AppliedData';
+import JobDetails from './components/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,21 @@ const router = createBrowserRouter([
       {
         path: "/appliedjobs",
         element: <div>appliedjobs</div>,
+      },
+      {
+        path: "/job/:id",
+        element: <JobDetails></JobDetails>,
+        loader: async ({params}) => {
+          const res = await fetch("/fakeJobs.json");
+          const data = await res.json();
+          const singleData = data.find(job => job.id == params.id)
+          if(!singleData){
+            return {}
+          }
+          else{
+            return singleData;
+          }
+        }
       },
       {
         path: "/blog",

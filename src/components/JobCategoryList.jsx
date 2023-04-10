@@ -8,13 +8,13 @@ const JobCategoryList = () => {
       .then((data) => setCards(data));
   }, []);
   return (
-    <div className="text-center py-28">
+    <div className="text-center py-16 md:py-28">
       <h3 className="text-4xl font-bold mb-3">Job Category List</h3>
       <p>
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>
-      <div className="flex flex-col md:flex-row gap-5 justify-center mt-8 mx-16">
+      <div className="flex flex-col md:flex-row gap-5 justify-center mt-8 mx-8 md:mx-16">
         {cards?.map((card) => (
           <li
             className="bg-sky-50 p-8 text-left rounded-lg list-none"
