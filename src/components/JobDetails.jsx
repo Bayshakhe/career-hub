@@ -1,26 +1,17 @@
 import React from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import { MapPinIcon, CurrencyDollarIcon, CalendarDaysIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/outline'
+import { handleToApply } from "../utilities/handleToApply";
 
 const JobDetails = () => {
   const jobDetails = useLoaderData();
 //   console.log(jobDetails.contact)
   const { id, jobTitle, logo, salary, location, jobType, duration, companyName, contact, description, education, experiences, responsibility, } = jobDetails;
 
-    const handleToApply = (job) => {
-        console.log(job)
-        let applied = {}
-        const exists = localStorage.getItem('apply')
-        if(exists){
-           applied = JSON.parse(exists)
-        }
-        else{
-            applied = localStorage.setItem('apply', JSON.stringify(job.companyName))
-        }
-    }
+    
 
   return (
-    <div style={{ maxWidth: "1400px" }} className="mx-auto md:mx-32">
+    <div style={{ maxWidth: "1400px" }} className="mx-auto lg:mx-32">
       <h3 className="text-4xl font-bold my-10 text-center">Job Details</h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 p-8">
         <div className="col-span-2">
@@ -53,7 +44,7 @@ const JobDetails = () => {
                 <p className="flex gap-2 text-gray-600 mb-3"><EnvelopeIcon className="h-6 w-6 " /> <span className="font-bold">Email: </span>{contact[1].email}</p>
                 <p className="flex gap-2 text-gray-600 "><MapPinIcon className="h-6 w-6 " /> <span className="font-bold">Address:</span>{location}</p>
             </div>
-            <Link onClick={()=> handleToApply(jobDetails)} to='' className="btn w-full mt-3">Apply Now</Link>
+            <Link onClick={()=> handleToApply(id,companyName)} to='' className="btn w-full mt-3">Apply Now</Link>
         </div>
       </div>
     </div>

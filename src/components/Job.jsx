@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/outline'
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Job = (props) => {
     const {id ,jobTitle, logo, salary, location, jobType, duration, companyName} = props.job;
