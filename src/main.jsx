@@ -7,17 +7,18 @@ import Home from './components/Home';
 import Statistic from './components/Statistic';
 import Blog from './components/Blog';
 import ErrorPage from './components/ErrorPage';
+import { getJobsAndAppliedData } from './loaders/getJobs&AppliedData';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
     errorElement: <ErrorPage></ErrorPage>,
+    loader: getJobsAndAppliedData,
     children: [
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch('fakeJobs.json'),
       },
       {
         path: "/statistics",

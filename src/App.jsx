@@ -1,12 +1,15 @@
-import { useState } from "react";
+import { createContext, useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLoaderData } from "react-router-dom";
 import Footer from "./components/Footer";
 
+export const JobContext = createContext([]);
+
 function App() {
+  const Jobs = useLoaderData()
   return (
-    <>
+    <JobContext.Provider value={Jobs}>
       <div className="bg-sky-50 ">
         <Header></Header>
       </div>
@@ -16,7 +19,7 @@ function App() {
       <div className="bg-black">
       <Footer></Footer>
       </div>
-    </>
+    </JobContext.Provider>
   );
 }
 
