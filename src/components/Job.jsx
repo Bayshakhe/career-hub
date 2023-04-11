@@ -13,7 +13,7 @@ const Job = (props) => {
             <p className=' text-gray-400 font-semibold mb-4 mt-2'>{companyName}</p>
             <button className='btn-outline text-gradient font-semibold mr-3'>{jobType}</button>
             <button className='btn-outline text-gradient font-semibold'>{duration}</button>
-            <div className='flex gap-5 text-gray-500 my-4'>
+            <div className='flex md:gap-5 text-gray-500 my-4'>
                 <p className='flex gap-1'><MapPinIcon className="h-6 w-6 " />{location}</p>  
                 <p className='flex gap-1'><CurrencyDollarIcon className="h-6 w-6 " /> {salary}</p>
             </div>

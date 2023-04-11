@@ -15,7 +15,7 @@ const Statistic = () => {
         <div className='py-10 px-8 md:px-32 w-full h-[400px] mb-16'>
           <h3 className="text-3xl font-bold mb-10 text-center">Statistics</h3>
         <ResponsiveContainer>
-          <ComposedChart width={500} height={500} data={assignmentsMark}
+          <ComposedChart maxw={500} height={500} data={assignmentsMark}
           >
             <CartesianGrid stroke="#f5f5f5" />
             <XAxis dataKey="name" />

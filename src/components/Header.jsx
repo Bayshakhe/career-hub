@@ -13,7 +13,7 @@ const Header = () => {
   ];
 
   return (
-    <nav style={{maxWidth: '1400px'}} className="navbar px-4 mx-auto">
+    <nav style={{maxWidth: '1400px'}} className="navbar mx-auto px-4 ">
       <div className="navbar-start">
         <a className="text-2xl font-bold">glassdoor</a>
       </div>
@@ -32,7 +32,7 @@ const Header = () => {
           )}
         </div>
         <ul
-          className={` font-semibold md:flex md:static gap-8 ${
+          className={`bg-sky-50 font-semibold md:flex md:static gap-8 ${
             open ? "absolute top-12 z-10" : "absolute -top-32"
           } `}
         >

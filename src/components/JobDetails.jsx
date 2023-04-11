@@ -42,7 +42,7 @@ const JobDetails = () => {
                 <p className="flex gap-2 text-gray-600 mb-3"><EnvelopeIcon className="h-6 w-6 " /> <span className="font-bold">Email: </span>{contact[1].email}</p>
                 <p className="flex gap-2 text-gray-600 "><MapPinIcon className="h-6 w-6 " /> <span className="font-bold">Address:</span>{location}</p>
             </div>
-            <Link onClick={()=> handleToApply(id,companyName)} to='' className="btn w-full mt-3">Apply Now</Link>
+            <Link onClick={()=> handleToApply(id,companyName,jobType)} to='' className="btn w-full mt-3">Apply Now</Link>
         </div>
       </div>
     </div>

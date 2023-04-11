@@ -1,9 +1,9 @@
 import toast from 'react-hot-toast';
 
-export const handleToApply = (id,name) => {
+export const handleToApply = (id,name,jobType) => {
     const exists = JSON.parse(localStorage.getItem('apply'))
     let applied = []
-    const job = {id, name};
+    const job = {id, name, jobType};
     
 
     if(exists){

@@ -13,7 +13,7 @@ const SingleAppliedJob = ({ singleData }) => {
     duration,
     companyName,
   } = singleData;
-  console.log(singleData);
+  // console.log(singleData);
   return (
     <div className="md:flex justify-between items-center border rounded p-8 md:mx-36 mb-5">
       <div className=" md:flex gap-5 items-center">
