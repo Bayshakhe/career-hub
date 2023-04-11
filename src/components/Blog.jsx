@@ -3,6 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <div style={{ maxWidth: "1400px" }} className="mx-auto px-5 py-12">
+      <h3 className="text-3xl font-bold mb-10 text-center">Blog</h3>
       <div className="bg-sky-50 p-5 mb-5 w-3/4 mx-auto">
         <h3 className="font-bold text-gradient text-lg">
           1. When Should you use context api?

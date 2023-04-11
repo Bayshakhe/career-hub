@@ -32,7 +32,7 @@ const Header = () => {
           )}
         </div>
         <ul
-          className={`md:flex md:static gap-8 ${
+          className={` font-semibold md:flex md:static gap-8 ${
             open ? "absolute top-12 z-10" : "absolute -top-32"
           } `}
         >
@@ -41,7 +41,7 @@ const Header = () => {
               <NavLink
                 to={link.ref}
                 className={({ isActive }) =>
-                  isActive ? "text-gradient font-semibold" : ""
+                  isActive ? "text-gradient" : ""
                 }
               >
                 {link.name}

@@ -8,11 +8,9 @@ const JobDetails = () => {
 //   console.log(jobDetails.contact)
   const { id, jobTitle, logo, salary, location, jobType, duration, companyName, contact, description, education, experiences, responsibility, } = jobDetails;
 
-    
-
   return (
     <div style={{ maxWidth: "1400px" }} className="mx-auto lg:mx-32">
-      <h3 className="text-4xl font-bold my-10 text-center">Job Details</h3>
+      <h3 className="text-3xl font-bold my-10 text-center">Job Details</h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 p-8">
         <div className="col-span-2">
           <p className="text-gray-700 mb-5">
